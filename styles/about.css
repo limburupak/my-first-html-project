@@ -1,0 +1,8 @@
+body{
+    font-size: 20px;
+    padding: 10px;
+    background-color: beige;
+    box-sizing: border-box;
+    border: 1px strong black;
+    flex-wrap: wrap;
+   }
