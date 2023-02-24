@@ -1,54 +1,65 @@
-header {
-    font-size: 30px;
-    padding: 30px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    background-color: brown;
-    color: bisque;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    min-width: 300px;
-  
+
+.header {
+   padding: 1px;
+   background-color: beige;
+   margin-bottom: 2px;
+   justify-content: space-evenly;
+   display: flex;
+   box-sizing: border-box;
+   border: 1px strong black;
+   flex-wrap: wrap;
 }
-section {
-    font-size: 25px;
-    padding: 30px;
+
+.animal-container1 {
+  
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 8px;
-    background-color: blanchedalmond;
-    flex-wrap: wrap;
-    
-    
+    border: 1px strong black;
+    justify-content: space-evenly;
+   padding: 30px;
+   flex-wrap: wrap;
+  
    
 }
-
-footer {
-    padding: 20px;
-    font-size: 20px;
-    background-color: blanchedalmond;
-    flex-wrap: wrap;
-}
-.animal-container3 {
-    font-size: 30px;
-    border: 1px strong black;
+.animal-container2 {
     box-sizing: border-box;
-   flex-wrap: wrap;
+    border: 1px strong black;
+    justify-content: space-evenly;
+    padding: 30px;
+    flex-wrap: wrap;
+    
     
 }
-.animal-container1 {
-    font-size: 30px;
+
+.animal-container3 {
+    box-sizing: border-box;
+    border: 1px strong black;
+    justify-content: space-evenly;
+    padding: 30px;
    flex-wrap: wrap;
+  
 }
-.animal-container2 {
-    font-size: 30px;
-    border-spacing: 20px;
- flex-wrap: wrap;
+.footer {
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px strong black;
+    background-color: blanchedalmond;
+    margin-top: 50px;
 }
-#input-container {
-    width: 50%;
-flex-wrap: wrap;
+.container {
+    box-sizing: border-box;
+    border: 1px strong black;
+    padding: 30px;
+    font-size: 20px;
 }
-
-
-
+.container2 {
+    box-sizing: border-box;
+    border: 1px strong black;
+    padding: 30px;
+    font-size: 20px;
+}
+.container3 {
+    box-sizing: border-box;
+    border: 1px strong black;
+    padding: 30px;
+    font-size: 20px;
+}
