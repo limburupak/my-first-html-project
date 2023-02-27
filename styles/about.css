@@ -1,8 +1,21 @@
-body{
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://d2g6byanrj0o4m.cloudfront.net/images/2490/mara_lion.jpg); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text-box {
     font-size: 20px;
-    padding: 10px;
-    background-color: beige;
-    box-sizing: border-box;
-    border: 1px strong black;
-    flex-wrap: wrap;
-   }
+    color: aliceblue;
+    padding-left: 60%;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
